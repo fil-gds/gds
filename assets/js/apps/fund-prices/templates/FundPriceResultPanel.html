@@ -1,0 +1,208 @@
+<%function getFactsheetLink(audienceId,isin){var url = "";if(audienceId == 1205){url = "/adviserservices/research/fund-supermarket/factsheet/summary.page?idtype=ISIN&amp;fundid="+isin + "&amp;UserChannel=Adviser";}else if(audienceId == 1203){url = "/investor/research-funds/fund-supermarket/factsheet/summary.page?idtype=ISIN&fundid="+isin + "&amp;UserChannel=Advised";}else if(audienceId == 1204){url = "/professional/research/fund-supermarket/factsheet/summary.page?idtype=ISIN&fundid="+isin + "&amp;UserChannel=Advised";}else{url = "/investor/research-funds/fund-supermarket/factsheet/summary.page?idtype=ISIN&fundid="+isin + "&amp;UserChannel=Direct";}return url;}%>
+
+<div id="fundPriceComponent">
+
+    <div class="ofLoadingIndicatorSml ofWhiteOverlay" id="pageLoading"><!--//--></div>
+
+    <!-- <div class="row  rhythm-m-1">
+        <div class="columns  large-6  medium-6  small-12">
+            <p class="query-form-results__index">Displaying <strong>1</strong> to <strong><%= funds.length %></strong> of <strong><%= funds.totalFunds %></strong> funds</p>
+        </div>
+        <div class="columns  large-6  medium-6  small-12">
+            <div class="text-right">
+                <div class="block  rhythm-m-1">
+                    Show
+                    <select class="input-select  input-select-width-80" id="pageCount_1">
+                        <option <%= funds.pagelen === 10 ? 'selected': '' %>>10</option>
+                        <option <%= funds.pageLen === 50 ? 'selected': '' %>>50</option>
+                        <option <%= funds.pageLen === 100 ? 'selected': '' %>>100</option>
+                    </select>
+                    funds at a time
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+
+    <div class="block  text-right  rhythm-m-2">
+        <div class="ofxRight ofAltBottomSpacing ofxSmall ofTextBlock">
+            <a id="ofPrint" href="javascript:void();" class="ofDownloadGrey  btn  btn-tertiary  funds-download-csv">
+                Download data (.csv)
+                <span class="icon-export"></span>
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column  small-12  medium-12">
+
+            <table id="fundPriceTable" class="query-results__table  table  rhythm-m-2" cellspacing="0">
+                <thead class="query-results__thead">
+                    <tr>
+                        <!-- INC150363721 -->
+                        <th class="fund-name-column">
+                            <div class="text-left">
+                                <a id="sortByName" href="javascript:void(0);" class="table-header-label">
+                                    Fund name
+                                    <span id="arrowImgFund" class="ofBlueArrowUp  sort-arrow"></span>
+                                </a>
+                            </div>
+                        </th>
+                        <th class="ofNum" style="width: 12.5%;"><span class="table-header-label">Updated</span></th>
+                        <!-- <th class="ofCenter" style="width: 6.25%;">
+                            <div class="text-right">
+                                <span class="table-header-label">
+                                    Buy
+                                    <span style="font-weight: normal;"></span>
+                                </span>
+                            </div>
+                        </th> -->
+                        <th class="ofCenter" style="width: 12.5%;">
+                            <div class="">
+                                <span class="table-header-label">
+                                    Buy | Sell
+                                    <span style="font-weight: normal;"></span>
+                                </span>
+                            </div>
+                        </th>
+                        <th class="ofCenter" style="width: 12.5%;"><span class="table-header-label">Change*<span style="font-weight: normal;"></span></span></th>
+                        <!-- INC150363721 -->
+                        <th class="ofNum" style="width: 12.5%;">
+                            <a id="sortByCurrency" href="javascript:void(0);" class="table-header-label">
+                                Currency
+                                <span id="arrowImgCurr" class="ofBlueArrowUp  sort-arrow"></span>
+                            </a>
+                        </th>
+                        <!-- <th class="ofCenter">Yield %</th>
+                        <th class="ofCenter ofLastChild"><nobr>Ex Div</nobr></th> -->
+                    </tr>
+                </thead>
+                <tbody class="query-results__tbody">
+                <%
+                var url = '';
+                var isClean = '';
+                var fundStatus = '';
+                var closedIconFlag = false;
+                var isClosed = '';
+                var counter = 0;
+                var buyEligible = true;
+                _.each(funds, function(fund,index){
+                if(counter == funds.length){
+                return;
+                }
+                if(counter < funds.length){
+                url = getFactsheetLink(audienceId, funds.at(counter).get('isin'));
+                isClean = funds.at(counter).get('cleanShareClass');
+                fundStatus = funds.at(counter).get('fundStatus');
+                buyEligible = funds.at(counter).get('buyEligible');
+                closedIconFlag = false;
+                if(audienceId =='1202') {
+                if(!isClean || !buyEligible || (fundStatus == 'SUSPENDED') || (fundStatus == 'CLOSED')){
+                closedIconFlag = true;
+                }
+                }else{
+                if(!isClean || (fundStatus == 'SUSPENDED') || (fundStatus == 'CLOSED')){
+                closedIconFlag = true;
+                }
+                }
+                isClosed = closedIconFlag?"<span class='ofFundClosed  fund-closed'></span>":"";
+                %>
+                <tr class="ofAlternating">
+                    <td class="ofFirstChild  fund-name-column" data-column="Fund Name">
+                        <div class="text-left">
+                            <a href="<%=url%>"><%= funds.at(counter).get('name') %> </a><%=isClosed%>
+                        </div>
+                    </td>
+                    <td class="ofCenter" style="width: 12.5%;" data-column="Updated"><%= funds.at(counter).get('updated') %></td>
+                    <td class="ofCenter" style="width: 12.5%;" data-column="Buy | Sell"><%= funds.at(counter).get('price') %></td>
+                    <td class="ofxRight text-right" style="width: 12.5%;" data-column="Change*">
+                        <%if(funds.at(counter).get('change') > 0){ %>
+                        <span class="ofxGain  fund-change  fund-change--positive"><%= funds.at(counter).get('change') %><i class="icon icon-arrow-up"></i></span>
+                        <%}else if(funds.at(counter).get('change') < 0){ %>
+                        <span class="ofxLoss  fund-change  fund-change--negative"><%= funds.at(counter).get('change') %><i class="icon icon-arrow-down"></i></span>
+                        <%}else{%>
+                        <%= funds.at(counter).get('change') %>
+                        <%}%>
+                    </td>
+                    <td class="ofCenter" style="width: 12.5%;" data-column="Currency"><%= funds.at(counter).get('fundCurrency') %></td>
+                    <!-- <td class="ofCenter"><%= funds.at(counter).get('yield') %></td>
+                    <td class="ofCenter ofLastChild"> <%= funds.at(counter).get('exDiv') %> </td> -->
+                </tr>
+                <%
+                }
+                counter = counter + 1;
+                if(counter < funds.length){
+                url = getFactsheetLink(audienceId, funds.at(counter).get('isin'));
+                isClean = funds.at(counter).get('cleanShareClass');
+                fundStatus = funds.at(counter).get('fundStatus');
+                buyEligible = funds.at(counter).get('buyEligible');
+                closedIconFlag = false;
+                if(audienceId =='1202') {
+                if(!isClean || !buyEligible || (fundStatus == 'SUSPENDED') || (fundStatus == 'CLOSED')){
+                closedIconFlag = true;
+                }
+                }else{
+                if(!isClean || (fundStatus == 'SUSPENDED') || (fundStatus == 'CLOSED')){
+                closedIconFlag = true;
+                }
+                }
+                isClosed = closedIconFlag?"<span class='ofFundClosed  fund-closed'></span>":"";
+                %>
+                <tr>
+                    <td class="ofFirstChild  fund-name-column" data-column="Fund Name">
+                        <div class="text-left">
+                            <a href="<%=url%>"><%= funds.at(counter).get('name') %> </a><%=isClosed%>
+                        </div>
+                    </td>
+                    <td class="ofCenter" style="width: 12.5%;" data-column="Updated"><%= funds.at(counter).get('updated') %></td>
+                    <td class="ofCenter" style="width: 12.5%;" data-column="Buy | Sell"><%= funds.at(counter).get('price') %></td>
+                    <td class="ofxRight text-right" style="width: 12.5%;" data-column="Change*">
+                        <%if(funds.at(counter).get('change') > 0){ %>
+                        <span class="ofxGain  fund-change  fund-change--positive"><%= funds.at(counter).get('change') %><i class="icon icon-arrow-up"></i></span>
+                        <%}else if(funds.at(counter).get('change') < 0){ %>
+                        <span class="ofxLoss  fund-change  fund-change--negative"><%= funds.at(counter).get('change') %><i class="icon icon-arrow-down"></i></span>
+                        <%}else{%>
+                        <%= funds.at(counter).get('change') %>
+                        <%}%>
+                    </td>
+                    <td class="ofCenter" style="width: 12.5%;" data-column="Currency"><%= funds.at(counter).get('fundCurrency') %></td>
+                    <!-- <td class="ofCenter"><%= funds.at(counter).get('yield') %></td>
+                    <td class="ofCenter ofLastChild"> <%= funds.at(counter).get('exDiv') %> </td> -->
+                </tr>
+                <%
+                }
+                counter = counter + 1;
+                });
+                %>
+                </tbody>
+            </table>
+
+            <!-- <div class="row">
+                <div class="column small-12">
+                    <button id="nextFunds" class="button primary btn-primary">Show next <%= funds.pageLen %> funds</button>
+                </div>
+            </div> -->
+
+            <!-- <footer>
+                <div class="row">
+                    <div class="column small-12">
+                        <button id="nextFunds" class="button primary btn-primary">Show next <%= funds.pageLen %> funds</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column small-6 medium-6 large-6"><p class="query-form-results__index">
+                        Displaying <strong>1</strong> to <strong><%= funds.length %></strong> of <strong><%= funds.totalFunds %></strong> funds </p></div>
+                    <div class="column small-6 medium-6 large-6">
+                        Show <select class="small-2" id="pageCount_2">
+                        <option <%= funds.pageLen === 10 ? 'selected': '' %> >10</option>
+                        <option <%= funds.pageLen === 50 ? 'selected': '' %> >50</option>
+                        <option <%= funds.pageLen === 100 ? 'selected': '' %> >100</option>
+                    </select> funds at a time
+                    </div>
+                </div>
+            </footer> -->
+
+        </div>
+    </div>
+
+</div>

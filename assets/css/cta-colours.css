@@ -1,0 +1,140 @@
+/**
+* 1. Define colour variables
+* 2. Apply colour variables to the button variables
+* 3. Change sizes of buttons
+*/
+/**
+* 1. ADD colours here
+*/
+/**
+* 2. Paste the colour names to apply them to the buttons
+*/
+/**
+* 3. change size of buttons in the array below.
+* KEY = 'size': ( height, side-padding, font-size, font-weight ),
+*/
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1; }
+
+/* Demo only, remove for production*/
+.btn {
+  font-family: arial; }
+
+/* Demo only, remove for production*/
+.btn-wrapper {
+  float: left;
+  max-width: 360px;
+  margin: 0 24px; }
+  .btn-wrapper .btn {
+    float: left;
+    margin: 24px 0; }
+
+.btn {
+  display: inline-block;
+  position: relative;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease; }
+  .btn:focus {
+    outline: none; }
+
+.btn-radius {
+  border-radius: 4px; }
+
+.btn-primary-orange {
+  background: #ff9b19;
+  color: #20242b; }
+  .btn-primary-orange:hover {
+    background: #ffa800;
+    color: #20242b; }
+  .btn-primary-orange:active {
+    background: #ea6a19;
+    color: #20242b; }
+
+.btn-primary-green {
+  background: #82c823;
+  color: #20242b; }
+  .btn-primary-green:hover {
+    background: #a2d830;
+    color: #20242b; }
+  .btn-primary-green:active {
+    background: #4aa00f;
+    color: #20242b; }
+
+.btn-secondary {
+  background: #016fad;
+  color: #ffffff; }
+  .btn-secondary:hover {
+    background: #00527c;
+    color: #ffffff; }
+  .btn-secondary:active {
+    background: #00a6e3;
+    color: #20242b; }
+
+.btn-tertiary {
+  background: #ffffff;
+  color: #016fad;
+  border: 2px solid #016fad; }
+  .btn-tertiary:hover {
+    background: #016fad;
+    color: #ffffff;
+    border-color: #016fad; }
+  .btn-tertiary:active {
+    background: #00a6e3;
+    color: #20242b;
+    border-color: #00a6e3; }
+
+.btn-sm {
+  line-height: 1;
+  padding: 6px 14px;
+  font-size: 16px;
+  font-weight: normal; }
+
+.btn-md {
+  line-height: 1;
+  padding: 13px 22px;
+  font-size: 18px;
+  font-weight: normal; }
+
+.btn-lg {
+  line-height: 1;
+  padding: 18px 30px;
+  font-size: 20px;
+  font-weight: normal; }
+
+.btn-xl {
+  line-height: 1;
+  padding: 20px 38px;
+  font-size: 24px;
+  font-weight: normal; }

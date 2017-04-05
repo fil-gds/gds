@@ -1,0 +1,1990 @@
+{
+    "FundFilters": {
+        "filters": [
+            {
+                "categories": [
+                    {
+                        "hits": 4346,
+                        "name": "Additional"
+                    },
+                    {
+                        "hits": 171,
+                        "name": "Included"
+                    }
+                ],
+                "displayType": "AS_IS",
+                "id": "SERVICEFEE_STATUS_1202",
+                "name": "Service Fee",
+                "type": "dynamic"
+            },
+            {
+                "categories": [
+                    {
+                        "hits": 704,
+                        "name": "< £50M"
+                    },
+                    {
+                        "hits": 1489,
+                        "name": "£50M - £250M"
+                    },
+                    {
+                        "hits": 799,
+                        "name": "£250M - £500M"
+                    },
+                    {
+                        "hits": 721,
+                        "name": "£500M - £1B"
+                    },
+                    {
+                        "hits": 804,
+                        "name": "> £1B"
+                    }
+                ],
+                "displayType": "AS_IS",
+                "id": "TOTAL_NET_ASSETS_LOCAL_CURRENCY_CAT",
+                "name": "Fund Size",
+                "type": "static"
+            },
+            {
+                "categories": [
+                    {
+                        "hits": 34,
+                        "name": "AXA Framlington"
+                    },
+                    {
+                        "hits": 65,
+                        "name": "AXA IM"
+                    },
+                    {
+                        "hits": 135,
+                        "name": "Aberdeen"
+                    },
+                    {
+                        "hits": 39,
+                        "name": "Aberdeen Asset Investments Limited"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Aberdeen Asset Management Asia Limited"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Aberdeen Asset Management PLC"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Aberdeen Fund Management Limited"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Aberdeen Private Wealth Mgmt Ltd"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Aberforth Partners LLP"
+                    },
+                    {
+                        "hits": 12,
+                        "name": "Alliance Trust"
+                    },
+                    {
+                        "hits": 27,
+                        "name": "Allianz"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Allianz Global Investors"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Allianz Global Investors Asia Pacific Limited"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Amati"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Amber Infrastructure Group"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Apollo"
+                    },
+                    {
+                        "hits": 65,
+                        "name": "Architas"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Argonaut"
+                    },
+                    {
+                        "hits": 50,
+                        "name": "Artemis"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Artemis Investment Management"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Asset Value Investors Limited"
+                    },
+                    {
+                        "hits": 64,
+                        "name": "Aviva Investors"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "BACIT Investments"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "BNP Paribas"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "BNY Mellon"
+                    },
+                    {
+                        "hits": 61,
+                        "name": "Baillie Gifford"
+                    },
+                    {
+                        "hits": 52,
+                        "name": "Barclays"
+                    },
+                    {
+                        "hits": 39,
+                        "name": "Barings"
+                    },
+                    {
+                        "hits": 170,
+                        "name": "BlackRock"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "BlackRock Asset Management North Asia Ltd"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "BlackRock Fund Managers Limited"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "BlackRock Japan Co Ltd"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Blackrock Financial Management, Inc"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Brooks Macdonald"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "CG Asset Management"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "CQS (UL) LLP"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "CRUX"
+                    },
+                    {
+                        "hits": 18,
+                        "name": "Carmignac Gestion"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Cartesian"
+                    },
+                    {
+                        "hits": 12,
+                        "name": "Cavendish"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Charlemagne Capital (UK) Ltd"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Chelverton"
+                    },
+                    {
+                        "hits": 21,
+                        "name": "City Financial"
+                    },
+                    {
+                        "hits": 25,
+                        "name": "Close Brothers"
+                    },
+                    {
+                        "hits": 18,
+                        "name": "Co-operative"
+                    },
+                    {
+                        "hits": 122,
+                        "name": "Columbia Threadneedle"
+                    },
+                    {
+                        "hits": 12,
+                        "name": "Cornelian"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Discovery"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Dodge & Cox"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "ETF Securities"
+                    },
+                    {
+                        "hits": 12,
+                        "name": "EdenTree"
+                    },
+                    {
+                        "hits": 81,
+                        "name": "F&C (BMO GAM)"
+                    },
+                    {
+                        "hits": 17,
+                        "name": "F&C Management"
+                    },
+                    {
+                        "hits": 509,
+                        "name": "Fidelity"
+                    },
+                    {
+                        "hits": 18,
+                        "name": "First State"
+                    },
+                    {
+                        "hits": 57,
+                        "name": "Franklin Templeton"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Frostrow Capital LLP"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Fundsmith"
+                    },
+                    {
+                        "hits": 11,
+                        "name": "GAM"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "GVQ"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Garraway"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Gravis Capital Partners Llp"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Greencoat Capital"
+                    },
+                    {
+                        "hits": 112,
+                        "name": "HSBC"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "HSBC Specialist Fund Mgt Ltd"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Hawksmoor"
+                    },
+                    {
+                        "hits": 119,
+                        "name": "Henderson"
+                    },
+                    {
+                        "hits": 12,
+                        "name": "Henderson Global Investors"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Hurlingham"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "ICM Ltd."
+                    },
+                    {
+                        "hits": 58,
+                        "name": "IShares"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Ignis"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Impax Asset Management Ltd"
+                    },
+                    {
+                        "hits": 34,
+                        "name": "Insight"
+                    },
+                    {
+                        "hits": 207,
+                        "name": "Invesco Perpetual"
+                    },
+                    {
+                        "hits": 69,
+                        "name": "Investec"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Investec Fund Managers Ltd"
+                    },
+                    {
+                        "hits": 29,
+                        "name": "J O Hambro"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "J Rothschild Capital Management Limited"
+                    },
+                    {
+                        "hits": 132,
+                        "name": "J.P. Morgan Asset Management"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "John Laing Capital Management"
+                    },
+                    {
+                        "hits": 77,
+                        "name": "Jupiter"
+                    },
+                    {
+                        "hits": 33,
+                        "name": "Jupiter Asset Management"
+                    },
+                    {
+                        "hits": 47,
+                        "name": "Kames Capital"
+                    },
+                    {
+                        "hits": 22,
+                        "name": "Lazard"
+                    },
+                    {
+                        "hits": 144,
+                        "name": "Legal & General"
+                    },
+                    {
+                        "hits": 34,
+                        "name": "Legg Mason"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Lindsell"
+                    },
+                    {
+                        "hits": 23,
+                        "name": "Liontrust"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Liontrust Panthera Fund Limited"
+                    },
+                    {
+                        "hits": 183,
+                        "name": "M&G"
+                    },
+                    {
+                        "hits": 10,
+                        "name": "Majedie"
+                    },
+                    {
+                        "hits": 21,
+                        "name": "Man GLG"
+                    },
+                    {
+                        "hits": 26,
+                        "name": "Margetts"
+                    },
+                    {
+                        "hits": 48,
+                        "name": "Marlborough"
+                    },
+                    {
+                        "hits": 17,
+                        "name": "Martin Currie"
+                    },
+                    {
+                        "hits": 7,
+                        "name": "Matthews Asia"
+                    },
+                    {
+                        "hits": 16,
+                        "name": "Miton"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Miton Trust Managers Limited"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Momentum"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Montanaro Asset Management Limited"
+                    },
+                    {
+                        "hits": 11,
+                        "name": "NGAM"
+                    },
+                    {
+                        "hits": 43,
+                        "name": "Neptune"
+                    },
+                    {
+                        "hits": 63,
+                        "name": "Newton"
+                    },
+                    {
+                        "hits": 8,
+                        "name": "Nordea"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Northwood Securities LLC"
+                    },
+                    {
+                        "hits": 16,
+                        "name": "Oasis Crescent"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "Octopus"
+                    },
+                    {
+                        "hits": 73,
+                        "name": "Old Mutual"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "PIMCO"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Pantheon Ventures Ltd"
+                    },
+                    {
+                        "hits": 25,
+                        "name": "Pictet"
+                    },
+                    {
+                        "hits": 21,
+                        "name": "Polar Capital"
+                    },
+                    {
+                        "hits": 59,
+                        "name": "Premier"
+                    },
+                    {
+                        "hits": 27,
+                        "name": "Prudential"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Quilter Cheviot Ltd"
+                    },
+                    {
+                        "hits": 29,
+                        "name": "Rathbones"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "River and Mercantile"
+                    },
+                    {
+                        "hits": 51,
+                        "name": "Royal London"
+                    },
+                    {
+                        "hits": 23,
+                        "name": "Russell Investments"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "SV Life Sciences Managers LLP"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "SVM"
+                    },
+                    {
+                        "hits": 8,
+                        "name": "Sanditon"
+                    },
+                    {
+                        "hits": 13,
+                        "name": "Santander"
+                    },
+                    {
+                        "hits": 25,
+                        "name": "Sarasin & Partners"
+                    },
+                    {
+                        "hits": 200,
+                        "name": "Schroders"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Scottish Investment Trust (The) PLC"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Scottish Widows"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Seneca"
+                    },
+                    {
+                        "hits": 32,
+                        "name": "Seven IM"
+                    },
+                    {
+                        "hits": 7,
+                        "name": "Sinfonia"
+                    },
+                    {
+                        "hits": 24,
+                        "name": "Smith & Williamson"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Somerset"
+                    },
+                    {
+                        "hits": 146,
+                        "name": "Standard Life"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Standard Life Investments"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Standard Life Invts - Corp Funds"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "State Street Global Advisors"
+                    },
+                    {
+                        "hits": 26,
+                        "name": "Stewart Investors"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "T. Bailey"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Tatton Oak"
+                    },
+                    {
+                        "hits": 28,
+                        "name": "Tilney Bestinvest"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Total Clarity"
+                    },
+                    {
+                        "hits": 11,
+                        "name": "Troy"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "TwentyFour Asset Management"
+                    },
+                    {
+                        "hits": 25,
+                        "name": "UBS"
+                    },
+                    {
+                        "hits": 8,
+                        "name": "Unicorn"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Union Bancaire Privée"
+                    },
+                    {
+                        "hits": 65,
+                        "name": "Vanguard"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "Verbatim"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Virgin"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Waverton"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Wise Investment"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Witan Investment Services Limited"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Woodford"
+                    }
+                ],
+                "displayType": "AS_IS",
+                "id": "NAME",
+                "name": "Fund Provider",
+                "type": "dynamic"
+            },
+            {
+                "categories": [
+                    {
+                        "hits": 42,
+                        "name": "Basic Materials"
+                    },
+                    {
+                        "hits": 19,
+                        "name": "Communication Services"
+                    },
+                    {
+                        "hits": 545,
+                        "name": "Consumer Cyclical"
+                    },
+                    {
+                        "hits": 327,
+                        "name": "Consumer Defensive"
+                    },
+                    {
+                        "hits": 34,
+                        "name": "Energy"
+                    },
+                    {
+                        "hits": 1621,
+                        "name": "Financial Services"
+                    },
+                    {
+                        "hits": 165,
+                        "name": "Healthcare"
+                    },
+                    {
+                        "hits": 405,
+                        "name": "Industrials"
+                    },
+                    {
+                        "hits": 141,
+                        "name": "Real Estate"
+                    },
+                    {
+                        "hits": 506,
+                        "name": "Technology"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "Utilities"
+                    }
+                ],
+                "displayType": "ONLY_FIRST_LETTER_OF_EACH_WORD_CAPITALISED",
+                "id": "LARGEST_SECTOR_CAT",
+                "name": "Largest Sector",
+                "type": "dynamic"
+            },
+            {
+                "categories": [
+                    {
+                        "hits": 2233,
+                        "name": "Large Caps - 3"
+                    },
+                    {
+                        "hits": 435,
+                        "name": "Mid Caps - 2"
+                    },
+                    {
+                        "hits": 199,
+                        "name": "Small Caps - 1"
+                    }
+                ],
+                "displayType": "AS_IS",
+                "id": "EQUITY_STYLE_CAT",
+                "name": "Primarily Invests In",
+                "type": "dynamic"
+            },
+            {
+                "categories": [
+                    {
+                        "hits": 154,
+                        "name": "Asia Pacific Excluding Japan"
+                    },
+                    {
+                        "hits": 13,
+                        "name": "Asia Pacific Including Japan"
+                    },
+                    {
+                        "hits": 36,
+                        "name": "China\/Greater China"
+                    },
+                    {
+                        "hits": 213,
+                        "name": "Europe Excluding UK"
+                    },
+                    {
+                        "hits": 24,
+                        "name": "Europe Including UK"
+                    },
+                    {
+                        "hits": 29,
+                        "name": "European Smaller Companies"
+                    },
+                    {
+                        "hits": 147,
+                        "name": "Flexible Investment"
+                    },
+                    {
+                        "hits": 318,
+                        "name": "Global"
+                    },
+                    {
+                        "hits": 108,
+                        "name": "Global Bonds"
+                    },
+                    {
+                        "hits": 104,
+                        "name": "Global Emerging Markets"
+                    },
+                    {
+                        "hits": 40,
+                        "name": "Global Emerging Markets Bond"
+                    },
+                    {
+                        "hits": 81,
+                        "name": "Global Equity Income"
+                    },
+                    {
+                        "hits": 85,
+                        "name": "Japan"
+                    },
+                    {
+                        "hits": 10,
+                        "name": "Japanese Smaller Companies"
+                    },
+                    {
+                        "hits": 97,
+                        "name": "Mixed Investment 0-35% Shares"
+                    },
+                    {
+                        "hits": 270,
+                        "name": "Mixed Investment 20-60% Shares"
+                    },
+                    {
+                        "hits": 182,
+                        "name": "Mixed Investment 40-85% Shares"
+                    },
+                    {
+                        "hits": 158,
+                        "name": "North America"
+                    },
+                    {
+                        "hits": 19,
+                        "name": "North American Smaller Companies"
+                    },
+                    {
+                        "hits": 67,
+                        "name": "Property"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Protected"
+                    },
+                    {
+                        "hits": 7,
+                        "name": "Short Term Money Market"
+                    },
+                    {
+                        "hits": 226,
+                        "name": "Specialist"
+                    },
+                    {
+                        "hits": 93,
+                        "name": "Targeted Absolute Return"
+                    },
+                    {
+                        "hits": 23,
+                        "name": "Technology and Telecommunications"
+                    },
+                    {
+                        "hits": 472,
+                        "name": "UK All Companies"
+                    },
+                    {
+                        "hits": 27,
+                        "name": "UK Equity And Bond Income"
+                    },
+                    {
+                        "hits": 180,
+                        "name": "UK Equity Income"
+                    },
+                    {
+                        "hits": 39,
+                        "name": "UK Gilts"
+                    },
+                    {
+                        "hits": 19,
+                        "name": "UK Index Linked Gilts"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "UK Money Market"
+                    },
+                    {
+                        "hits": 93,
+                        "name": "UK Smaller Companies"
+                    },
+                    {
+                        "hits": 486,
+                        "name": "Unclassified"
+                    },
+                    {
+                        "hits": 265,
+                        "name": "Unclassified Sector"
+                    },
+                    {
+                        "hits": 176,
+                        "name": "£ Corporate Bond"
+                    },
+                    {
+                        "hits": 75,
+                        "name": "£ High Yield"
+                    },
+                    {
+                        "hits": 173,
+                        "name": "£ Strategic Bond"
+                    }
+                ],
+                "displayType": "AS_IS",
+                "id": "IMA_SECTOR_CAT",
+                "name": "IMA Categories",
+                "type": "dynamic"
+            },
+            {
+                "categories": [
+                    {
+                        "hits": 5,
+                        "name": "Asia Aggregate Bond"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Asia High Yield Bond"
+                    },
+                    {
+                        "hits": 199,
+                        "name": "Asia Pacific Equity excl Japan"
+                    },
+                    {
+                        "hits": 10,
+                        "name": "Asia and Emerging Markets"
+                    },
+                    {
+                        "hits": 26,
+                        "name": "Bonds"
+                    },
+                    {
+                        "hits": 17,
+                        "name": "Commodities - General"
+                    },
+                    {
+                        "hits": 12,
+                        "name": "Commodities - Precious Metals"
+                    },
+                    {
+                        "hits": 146,
+                        "name": "Emerging Markets Global Equity"
+                    },
+                    {
+                        "hits": 21,
+                        "name": "Emerging Markets Hard Currency Bond"
+                    },
+                    {
+                        "hits": 13,
+                        "name": "Emerging Markets Local Currency Bond"
+                    },
+                    {
+                        "hits": 113,
+                        "name": "Emerging Markets Regional Equity"
+                    },
+                    {
+                        "hits": 14,
+                        "name": "Europe"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Europe Aggregate Bond"
+                    },
+                    {
+                        "hits": 10,
+                        "name": "Europe Corporate Bond"
+                    },
+                    {
+                        "hits": 46,
+                        "name": "Europe Equity"
+                    },
+                    {
+                        "hits": 11,
+                        "name": "Europe Equity Income"
+                    },
+                    {
+                        "hits": 20,
+                        "name": "Europe Equity Single Country"
+                    },
+                    {
+                        "hits": 237,
+                        "name": "Europe Equity excl UK"
+                    },
+                    {
+                        "hits": 13,
+                        "name": "Europe High Yield Bond"
+                    },
+                    {
+                        "hits": 11,
+                        "name": "Global"
+                    },
+                    {
+                        "hits": 98,
+                        "name": "Global Aggregate Bond"
+                    },
+                    {
+                        "hits": 497,
+                        "name": "Global Equity"
+                    },
+                    {
+                        "hits": 76,
+                        "name": "Global Equity Income"
+                    },
+                    {
+                        "hits": 11,
+                        "name": "Global High Yield Bond"
+                    },
+                    {
+                        "hits": 10,
+                        "name": "Global Inflation Linked Bond"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "Japan"
+                    },
+                    {
+                        "hits": 105,
+                        "name": "Japan Equity"
+                    },
+                    {
+                        "hits": 385,
+                        "name": "Mixed Assets - Balanced"
+                    },
+                    {
+                        "hits": 199,
+                        "name": "Mixed Assets - Defensive"
+                    },
+                    {
+                        "hits": 151,
+                        "name": "Mixed Assets - Flexible"
+                    },
+                    {
+                        "hits": 330,
+                        "name": "Mixed Assets - Growth"
+                    },
+                    {
+                        "hits": 16,
+                        "name": "Money Market"
+                    },
+                    {
+                        "hits": 13,
+                        "name": "North America"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "North American Aggregate Bond"
+                    },
+                    {
+                        "hits": 164,
+                        "name": "North American Equity"
+                    },
+                    {
+                        "hits": 42,
+                        "name": "North American High Yield Bond"
+                    },
+                    {
+                        "hits": 24,
+                        "name": "North American Small\/Mid Cap Equity"
+                    },
+                    {
+                        "hits": 53,
+                        "name": "Other"
+                    },
+                    {
+                        "hits": 62,
+                        "name": "Property - Listed"
+                    },
+                    {
+                        "hits": 19,
+                        "name": "Property - Physical"
+                    },
+                    {
+                        "hits": 14,
+                        "name": "Target Funds"
+                    },
+                    {
+                        "hits": 20,
+                        "name": "UK"
+                    },
+                    {
+                        "hits": 158,
+                        "name": "UK Aggregate Bond"
+                    },
+                    {
+                        "hits": 182,
+                        "name": "UK Corporate Bond"
+                    },
+                    {
+                        "hits": 412,
+                        "name": "UK Equity"
+                    },
+                    {
+                        "hits": 225,
+                        "name": "UK Equity Income"
+                    },
+                    {
+                        "hits": 51,
+                        "name": "UK Government Bond"
+                    },
+                    {
+                        "hits": 27,
+                        "name": "UK High Yield Bond"
+                    },
+                    {
+                        "hits": 31,
+                        "name": "UK Inflation Linked Bond"
+                    },
+                    {
+                        "hits": 140,
+                        "name": "UK Small\/Mid Cap Equity"
+                    }
+                ],
+                "displayType": "AS_IS",
+                "id": "ASSET_CLASS_CAT",
+                "name": "Asset Class",
+                "type": "dynamic"
+            },
+            {
+                "categories": [
+                    {
+                        "hits": 5,
+                        "name": "ASEAN Equity"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "AUD Money Market"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Africa Equity"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Alt - Currency"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Alt - Debt Arbitrage"
+                    },
+                    {
+                        "hits": 25,
+                        "name": "Alt - Fund of Funds - Multistrategy"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Alt - Global Macro"
+                    },
+                    {
+                        "hits": 20,
+                        "name": "Alt - Long\/Short Debt"
+                    },
+                    {
+                        "hits": 7,
+                        "name": "Alt - Long\/Short Equity - Europe"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Alt - Long\/Short Equity - Global"
+                    },
+                    {
+                        "hits": 17,
+                        "name": "Alt - Long\/Short Equity - UK"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Alt - Long\/Short Equity - US"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Alt - Market Neutral - Equity"
+                    },
+                    {
+                        "hits": 28,
+                        "name": "Alt - Multistrategy"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Asia Bond"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Asia High Yield Bond"
+                    },
+                    {
+                        "hits": 57,
+                        "name": "Asia ex Japan Equity"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Asia ex-Japan Small\/Mid-Cap Equity"
+                    },
+                    {
+                        "hits": 107,
+                        "name": "Asia-Pacific ex-Japan Equity"
+                    },
+                    {
+                        "hits": 19,
+                        "name": "Asia-Pacific inc. Japan Equity"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Australia & New Zealand Equity"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "BRIC Equity"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Brazil Equity"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Capital Protected"
+                    },
+                    {
+                        "hits": 28,
+                        "name": "China Equity"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Commodities - Broad Basket"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Commodities - Precious Metals"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Convertible Bond - Global"
+                    },
+                    {
+                        "hits": 11,
+                        "name": "EMEA Equity"
+                    },
+                    {
+                        "hits": 10,
+                        "name": "EUR Corporate Bond"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "EUR Diversified Bond"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "EUR Diversified Bond - Short Term"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "EUR High Yield Bond"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "EUR Moderate Allocation"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "EUR Moderate Allocation - Global"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "EUR Money Market"
+                    },
+                    {
+                        "hits": 13,
+                        "name": "Emerging Europe Equity"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Europe Bond"
+                    },
+                    {
+                        "hits": 14,
+                        "name": "Europe Equity - Currency Hedged"
+                    },
+                    {
+                        "hits": 11,
+                        "name": "Europe Equity Income"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Europe Flex-Cap Equity"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "Europe High Yield Bond"
+                    },
+                    {
+                        "hits": 20,
+                        "name": "Europe Large-Cap Blend Equity"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Europe Large-Cap Growth Equity"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Europe Large-Cap Value Equity"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Europe Mid-Cap Equity"
+                    },
+                    {
+                        "hits": 12,
+                        "name": "Europe Small-Cap Equity"
+                    },
+                    {
+                        "hits": 184,
+                        "name": "Europe ex-UK Large-Cap Equity"
+                    },
+                    {
+                        "hits": 34,
+                        "name": "Europe ex-UK Small\/Mid-Cap Equity"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "Eurozone Large-Cap Equity"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Eurozone Mid-Cap Equity"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "France Large-Cap Equity"
+                    },
+                    {
+                        "hits": 330,
+                        "name": "GBP Aggressive Allocation"
+                    },
+                    {
+                        "hits": 201,
+                        "name": "GBP Cautious Allocation"
+                    },
+                    {
+                        "hits": 188,
+                        "name": "GBP Corporate Bond"
+                    },
+                    {
+                        "hits": 31,
+                        "name": "GBP Diversified Bond"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "GBP Diversified Bond - Short Term"
+                    },
+                    {
+                        "hits": 97,
+                        "name": "GBP Flexible Allocation"
+                    },
+                    {
+                        "hits": 27,
+                        "name": "GBP Flexible Bond"
+                    },
+                    {
+                        "hits": 53,
+                        "name": "GBP Government Bond"
+                    },
+                    {
+                        "hits": 37,
+                        "name": "GBP High Yield Bond"
+                    },
+                    {
+                        "hits": 31,
+                        "name": "GBP Inflation-Linked Bond"
+                    },
+                    {
+                        "hits": 357,
+                        "name": "GBP Moderate Allocation"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "GBP Money Market"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "GBP Money Market - Short Term"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Germany Large-Cap Equity"
+                    },
+                    {
+                        "hits": 49,
+                        "name": "Global Bond"
+                    },
+                    {
+                        "hits": 19,
+                        "name": "Global Bond - GBP Hedged"
+                    },
+                    {
+                        "hits": 7,
+                        "name": "Global Corporate Bond"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Global Corporate Bond - EUR Hedged"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Global Corporate Bond - GBP Hedged"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Global Emerging Markets Allocation"
+                    },
+                    {
+                        "hits": 21,
+                        "name": "Global Emerging Markets Bond"
+                    },
+                    {
+                        "hits": 13,
+                        "name": "Global Emerging Markets Bond - Local Currency"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Global Emerging Markets Corporate Bond"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Global Emerging Markets Corporate Bond - EUR Biased"
+                    },
+                    {
+                        "hits": 131,
+                        "name": "Global Emerging Markets Equity"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Global Emerging Markets Equity - Currency Hedged"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Global Emerging Markets Small\/Mid-Cap Equity"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "Global Equity - Currency Hedged"
+                    },
+                    {
+                        "hits": 83,
+                        "name": "Global Equity Income"
+                    },
+                    {
+                        "hits": 35,
+                        "name": "Global Flex-Cap Equity"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Global Flexible Bond - EUR Hedged"
+                    },
+                    {
+                        "hits": 106,
+                        "name": "Global Flexible Bond - GBP Hedged"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Global Flexible Bond - USD Hedged"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Global Frontier Markets Equity"
+                    },
+                    {
+                        "hits": 8,
+                        "name": "Global High Yield Bond"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Global High Yield Bond - EUR Hedged"
+                    },
+                    {
+                        "hits": 29,
+                        "name": "Global High Yield Bond - GBP Hedged"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Global Inflation-Linked Bond"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Global Inflation-Linked Bond - EUR Hedged"
+                    },
+                    {
+                        "hits": 11,
+                        "name": "Global Inflation-Linked Bond - GBP Hedged"
+                    },
+                    {
+                        "hits": 230,
+                        "name": "Global Large-Cap Blend Equity"
+                    },
+                    {
+                        "hits": 56,
+                        "name": "Global Large-Cap Growth Equity"
+                    },
+                    {
+                        "hits": 20,
+                        "name": "Global Large-Cap Value Equity"
+                    },
+                    {
+                        "hits": 15,
+                        "name": "Global Small-Cap Equity"
+                    },
+                    {
+                        "hits": 19,
+                        "name": "Greater China Equity"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Guaranteed Funds"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "High Yield Bond - Other Hedged"
+                    },
+                    {
+                        "hits": 20,
+                        "name": "India Equity"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Indonesia Equity"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Islamic Allocation - Other"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Islamic Global Equity"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Italy Equity"
+                    },
+                    {
+                        "hits": 12,
+                        "name": "Japan Equity - Currency Hedged"
+                    },
+                    {
+                        "hits": 80,
+                        "name": "Japan Large-Cap Equity"
+                    },
+                    {
+                        "hits": 22,
+                        "name": "Japan Small\/Mid-Cap Equity"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Korea Equity"
+                    },
+                    {
+                        "hits": 24,
+                        "name": "Latin America Equity"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Money Market - Other"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Nordic Equity"
+                    },
+                    {
+                        "hits": 7,
+                        "name": "Other"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Other Allocation"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Other Asia-Pacific Equity"
+                    },
+                    {
+                        "hits": 25,
+                        "name": "Other Bond"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Other Inflation-Linked Bond"
+                    },
+                    {
+                        "hits": 19,
+                        "name": "Property - Direct UK"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Property - Indirect Asia"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "Property - Indirect Europe"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Property - Indirect Eurozone"
+                    },
+                    {
+                        "hits": 46,
+                        "name": "Property - Indirect Global"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Property - Indirect Other"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "RMB Bond"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "Russia Equity"
+                    },
+                    {
+                        "hits": 7,
+                        "name": "Sector Equity Agriculture"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Sector Equity Alternative Energy"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Sector Equity Biotechnology"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Sector Equity Communications"
+                    },
+                    {
+                        "hits": 8,
+                        "name": "Sector Equity Consumer Goods & Services"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "Sector Equity Ecology"
+                    },
+                    {
+                        "hits": 7,
+                        "name": "Sector Equity Energy"
+                    },
+                    {
+                        "hits": 24,
+                        "name": "Sector Equity Financial Services"
+                    },
+                    {
+                        "hits": 20,
+                        "name": "Sector Equity Healthcare"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "Sector Equity Industrial Materials"
+                    },
+                    {
+                        "hits": 7,
+                        "name": "Sector Equity Infrastructure"
+                    },
+                    {
+                        "hits": 15,
+                        "name": "Sector Equity Natural Resources"
+                    },
+                    {
+                        "hits": 6,
+                        "name": "Sector Equity Other"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "Sector Equity Precious Metals"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Sector Equity Private Equity"
+                    },
+                    {
+                        "hits": 22,
+                        "name": "Sector Equity Technology"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Sector Equity Water"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Singapore Equity"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Spain Equity"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Switzerland Large-Cap Equity"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Taiwan Large-Cap Equity"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Target Date 2011 - 2015"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Target Date 2016 - 2020"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Target Date 2021 - 2025"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "Target Date 2026 - 2030"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Target Date 2031 - 2035"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Target Date 2036 - 2040"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "Target Date 2041 - 2045"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Target Date 2046+"
+                    },
+                    {
+                        "hits": 2,
+                        "name": "Thailand Equity"
+                    },
+                    {
+                        "hits": 230,
+                        "name": "UK Equity Income"
+                    },
+                    {
+                        "hits": 154,
+                        "name": "UK Flex-Cap Equity"
+                    },
+                    {
+                        "hits": 213,
+                        "name": "UK Large-Cap Blend Equity"
+                    },
+                    {
+                        "hits": 23,
+                        "name": "UK Large-Cap Growth Equity"
+                    },
+                    {
+                        "hits": 14,
+                        "name": "UK Large-Cap Value Equity"
+                    },
+                    {
+                        "hits": 36,
+                        "name": "UK Mid-Cap Equity"
+                    },
+                    {
+                        "hits": 111,
+                        "name": "UK Small-Cap Equity"
+                    },
+                    {
+                        "hits": 5,
+                        "name": "US Equity - Currency Hedged"
+                    },
+                    {
+                        "hits": 19,
+                        "name": "US Flex-Cap Equity"
+                    },
+                    {
+                        "hits": 97,
+                        "name": "US Large-Cap Blend Equity"
+                    },
+                    {
+                        "hits": 31,
+                        "name": "US Large-Cap Growth Equity"
+                    },
+                    {
+                        "hits": 24,
+                        "name": "US Large-Cap Value Equity"
+                    },
+                    {
+                        "hits": 14,
+                        "name": "US Mid-Cap Equity"
+                    },
+                    {
+                        "hits": 16,
+                        "name": "US Small-Cap Equity"
+                    },
+                    {
+                        "hits": 3,
+                        "name": "USD Diversified Bond"
+                    },
+                    {
+                        "hits": 1,
+                        "name": "USD Flexible Bond"
+                    },
+                    {
+                        "hits": 9,
+                        "name": "USD High Yield Bond"
+                    },
+                    {
+                        "hits": 7,
+                        "name": "USD Moderate Allocation"
+                    },
+                    {
+                        "hits": 4,
+                        "name": "USD Money Market"
+                    }
+                ],
+                "displayType": "AS_IS",
+                "id": "MORNINGSTAR_CATEGORY_CAT",
+                "name": "Morningstar Category",
+                "type": "dynamic"
+            },
+            {
+                "categories": [
+                    {
+                        "hits": 3751,
+                        "name": "1 Star or Higher"
+                    },
+                    {
+                        "hits": 3624,
+                        "name": "2 Stars or Higher"
+                    },
+                    {
+                        "hits": 3094,
+                        "name": "3 Stars or Higher"
+                    },
+                    {
+                        "hits": 1795,
+                        "name": "4 Stars or Higher"
+                    },
+                    {
+                        "hits": 548,
+                        "name": "5 Stars"
+                    }
+                ],
+                "displayType": "AS_IS",
+                "id": "VALUE_OVERALL_CAT",
+                "name": "Morningstar Rating",
+                "type": "dynamic"
+            },
+            {
+                "categories": [
+                    {
+                        "hits": 432,
+                        "name": "GIA Eligible No"
+                    },
+                    {
+                        "hits": 4085,
+                        "name": "GIA Eligible Yes"
+                    },
+                    {
+                        "hits": 299,
+                        "name": "ISA Eligible No"
+                    },
+                    {
+                        "hits": 4218,
+                        "name": "ISA Eligible Yes"
+                    },
+                    {
+                        "hits": 627,
+                        "name": "International Bond Eligible No"
+                    },
+                    {
+                        "hits": 3890,
+                        "name": "International Bond Eligible Yes"
+                    },
+                    {
+                        "hits": 4517,
+                        "name": "Investment Bond Eligible No"
+                    },
+                    {
+                        "hits": 27,
+                        "name": "Investment Fund Eligible No"
+                    },
+                    {
+                        "hits": 4490,
+                        "name": "Investment Fund Eligible Yes"
+                    },
+                    {
+                        "hits": 445,
+                        "name": "NISA Eligible No"
+                    },
+                    {
+                        "hits": 4072,
+                        "name": "NISA Eligible Yes"
+                    },
+                    {
+                        "hits": 1576,
+                        "name": "FundsNetwork Pension Eligible No"
+                    },
+                    {
+                        "hits": 2941,
+                        "name": "FundsNetwork Pension Eligible Yes"
+                    },
+                    {
+                        "hits": 1549,
+                        "name": "Fidelity SIPP Eligible No"
+                    },
+                    {
+                        "hits": 2968,
+                        "name": "Fidelity SIPP Eligible Yes"
+                    },
+                    {
+                        "hits": 400,
+                        "name": "SIPP(bought before 18\/02\/13) Eligible No"
+                    },
+                    {
+                        "hits": 4117,
+                        "name": "SIPP(bought before 18\/02\/13) Eligible Yes"
+                    }
+                ],
+                "displayType": "AS_IS",
+                "id": "TAX_WRAPPER_CAT",
+                "name": "Tax Wrapper",
+                "type": "dynamic"
+            },
+            {
+                "categories": [
+                    {
+                        "hits": 171,
+                        "name": "ETF"
+                    },
+                    {
+                        "hits": 2813,
+                        "name": "OEIC"
+                    },
+                    {
+                        "hits": 593,
+                        "name": "OFFSHORE"
+                    },
+                    {
+                        "hits": 940,
+                        "name": "UNITTRUST"
+                    }
+                ],
+                "displayType": "AS_IS",
+                "id": "LEGAL_STRUCTURE_CAT",
+                "name": "Legal Status",
+                "type": "dynamic"
+            },
+            {
+                "categories": [
+                    {
+                        "hits": 88,
+                        "name": "Asia 4 Tigers"
+                    },
+                    {
+                        "hits": 26,
+                        "name": "Australasia"
+                    },
+                    {
+                        "hits": 33,
+                        "name": "Central & Latin America"
+                    },
+                    {
+                        "hits": 316,
+                        "name": "Emerging Asia - Ex 4 Tigers"
+                    },
+                    {
+                        "hits": 17,
+                        "name": "Emerging Eastern Europe"
+                    },
+                    {
+                        "hits": 145,
+                        "name": "Japan"
+                    },
+                    {
+                        "hits": 12,
+                        "name": "Middle East\/Africa - Developed"
+                    },
+                    {
+                        "hits": 1218,
+                        "name": "North America"
+                    },
+                    {
+                        "hits": 1556,
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "hits": 415,
+                        "name": "Western Europe - Euro"
+                    },
+                    {
+                        "hits": 24,
+                        "name": "Western Europe - Non-Euro"
+                    }
+                ],
+                "displayType": "AS_IS",
+                "id": "LARGEST_REGION_CAT",
+                "name": "Largest Region",
+                "type": "dynamic"
+            }
+        ]
+    }
+}

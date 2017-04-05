@@ -1,0 +1,120 @@
+<script type="text/javascript">
+    function showToolTip (linkEle, popup) {
+        var pop = $(popup);
+        var left = Element.cumulativeOffset($(linkEle))[0] + 34 + "px";
+        var top = Element.cumulativeOffset($(linkEle))[1] + $(linkEle).getHeight() - 55 + "px";
+
+        if ($('mask2')) {
+            var mask = $('mask2');
+            mask.style.left = left;
+            mask.style.top = top;
+            mask.style.height = pop.getHeight() + 4 + "px";
+            mask.style.width = pop.getWidth() + 4 + "px";
+            mask.show();
+        }
+        var arrow = $('nestedArrow');
+        arrow.style.left = Element.cumulativeOffset($(linkEle))[0] + 10 + "px";
+        arrow.style.top = Element.cumulativeOffset($(linkEle))[1] - 11 + "px";
+        arrow.style.height = "40px";
+        arrow.style.width = "40px";
+        arrow.show();
+        pop.style.left = left;
+        pop.style.top = top;
+        pop.show();
+    }
+</script>
+
+<div class="bg-white  query-form__header-results">
+    <h4><%= resultsCount %> funds</h4>
+</div>
+
+<form id="fundsQueryForm" method="post" class="query-form">
+
+    <div class="row  rhythm-m-1">
+        <div class="columns small-12  medium-6 large-6 wide-4  small-rhythm-m-1">
+            <label for="fund_type">Fund type</label>
+            <select id="fund_type" class="input-select" name="fund_type">
+                <option>All</option>
+                <option value="Currency">Currency Funds</option>
+                <option value="ETF">IT/ETF</option><!--AB:: Changed label from Investement Trust to IT/ETF and value from IT to ETF -->
+                <option value="LIFEFUND">Life</option>
+                <option value="OEIC">OEIC</option>
+                <option value="OFFSHORE">SICAV</option>
+                <option value="UNITTRUST">Unit Trust</option>
+                <option value="Windfall">Windfall</option>
+            </select>
+        </div>
+        <div class="columns small-12 medium-6 large-6 wide-4">
+            <label for="fund_provider">Fund provider</label>
+            <select id="fund_provider" class="input-select" name="fund_provider">
+                <% _.each(providers, function(provider,index){
+                if(providers[index] == 'Fidelity'){
+                %>
+                <option value='<%= providers[index] %>' selected><%= providers[index] %></option>
+                <% }else{
+                %>
+                <option value='<%= providers[index] %>'><%= providers[index] %></option>
+                <% }
+                %>
+                <% }); %>
+            </select>
+        </div>
+        <div class="columns small-12 medium-12 large-12  wide-4  large-rhythm-m-1--top">
+            <label>Availability</label>
+            <div class="small button-group fil-button-group" id="availabilityButtons">
+
+                <!--<a class="button selected" data-value="all">All</a><a class="button" data-value="open">Open</a><a class="button" data-value="closed">Closed</a>-->
+
+                <ul class="menu expanded toggle-list">
+                    <li>
+                        <div class="toggle-input">
+                            <input id="allfundsAvailability" class="ofxVertAlignMiddle  toggle-input__input" type="radio" checked="checked" name="fundsAvailability" value="All">
+                            <label for="allfundsAvailability" class="toggle-input__label">All</label>
+                        </div>
+                    </li><!--
+                    --><li>
+                        <div class="toggle-input">
+                            <input id="openfundsAvailability" class="ofxVertAlignMiddle  toggle-input__input" type="radio" name="fundsAvailability" value="open">
+                            <label for="openfundsAvailability" class="toggle-input__label">Open</label>
+                        </div>
+                    </li><!--
+                    --><li>
+                        <div class="toggle-input">
+                            <input id="closedfundsAvailability" class="ofxVertAlignMiddle  toggle-input__input" type="radio" name="fundsAvailability" value="closed">
+                            <label for="closedfundsAvailability" class="toggle-input__label">Closed</label>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <a class="ofHelpLinkIcon" onclick="showToolTip(this,'popupForMsp'); return false" href="#"></a>
+
+            <div id="popupForMsp" class="ofxPopLayer2 ofPad1 ofxToolTip" style="z-index:85; display: none; width:225px;">
+                <div class="ofTextBlock ofAltBottomSpacing">
+
+                    <a href="#" onclick="$('popupForMsp').hide();$('nestedArrow').hide(); if($('toolTipMask')){$('toolTipMask').hide();} return false" class="ofRight" title="">
+                        <img src='/static/common/images/closex-black_big.gif' alt="Close" height="16" width="16"/>
+                    </a>
+
+                    <p>The funds in 'bundled' share classes as indicated by the <span class='ofFundClosed'></span> icon are no longer open for new investments. However, you may be able to make investments into the 'clean' share class equivalent of these funds. Any other 'clean' share classes of funds that have been closed have also been identified.</p>
+
+                </div>
+            </div>
+
+            <div id="nestedArrow" class="ofxarrowLeft" style="position: absolute;z-index: 90; display: none;">
+                <!-- -->
+            </div>
+
+            <input type="hidden" id="fundAvailability" name="fundAvailability" value="all"/>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column small-12 large-4 large-offset-4 text-center">
+            <button class="btn  btn-secondary" type="button">Filter Funds</button>
+        </div>
+    </div>
+
+</form><!-- Results -->
