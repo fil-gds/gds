@@ -7653,7 +7653,7 @@ label,
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 48px 0; }
+  padding: 120px 0; }
   @media screen and (max-width: 39.9375em) {
     .hero {
       padding: 48px 0;
@@ -7696,7 +7696,7 @@ label,
         float: right; } }
 
 .hero-content__inner {
-  background: rgba(255, 255, 255, 0.97);
+  background: rgba(255, 255, 255, 0.8);
   color: #262626; }
   .hero-content__inner.basic {
     background-color: transparent;
